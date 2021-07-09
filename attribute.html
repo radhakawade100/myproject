@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<style type="text/css">
+	#sf{
+         background-color: tan;
+	}
+	#sf{
+		border: blue solid 2px;
+	}
+	</style>
+</head>
+<body>
+	<form>
+		<fieldset>
+			<legend>SECTION ONE</legend>
+			<div id="sf">
+			<label 	for="fname">Enter a Name:</label>
+		<input type="text" name="fname"/><br/>
+		<label for="age">Enter a Age:</label>
+		<input type="number" name="age"><br>
+		<label for="html">HTML</label>
+		<input type="checkbox" name="html"><br>
+		<label for="css">CSS</label>
+		<input type="checkbox" name="css"><br>
+		<label>ENTER A PASSWORD</label>
+		<input type="password" name="pass"><br>
+		<label for="gender">MALE</label><input type="radio" value="male"name="gender"/>
+		<label for="gender">FEMALE</label><input type="radio" value="female"name="gender">
+		<label for="gender">OTHER</label><input type="radio" value="other"name="gender"/>
+		<br>
+		<label>Select Course Duration</label>
+		<select name="duration">
+			<option>Select Your Duration</option>
+			<option value="1">1 week</option>
+			<option value="2">2 Month</option>
+			<option value="3">3 year</option>
+			<option value="4">4 year</option>
+			<option value="5">5 year</option>
+			<option value="6">6 year</option>
+		</select>
+		<br>
+		<textarea rows="10" cols="50" name="massage"></textarea>
+		<br>
+		<input type="submit" value="Submit" name="submit">
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<input type="reset" value="Reset" name="reset">
+	</form></div>
+		</fieldset>
+		<br>
+		<br>
+		<fieldset>
+			<legend>SECTION SECOND</legend>
+			<div>
+		<input type="text" name="fname" value="Radha Kawade">
+		<br>
+		<input type="text" name="fname" placeholder="radhakawade@51gmail.com">
+		<br>
+		<input type="text" name="fname" placeholder="radhakawade@51gmail.com" size="40">
+		<br>
+		<input type="text" name="fname" placeholder="radhakawade@51gmail.com" size="40" readonly>
+		<br>
+		<input type="text" name="fname" placeholder="radhakawade@51gmail.com" size="40" disabled="">
+		<br>
+
+		<input type="text" name="fname" size="40" required>
+		<br>
+		<input type="text" name="fname" size="40" maxlength="5">
+		<br>
+		<label>min & max</label>
+		<input type="text" name="fname" size="40" minlength="5" maxlength="10">
+		<br>
+		<input type="file" name="fname" accept=".doc,.docx" multiple>
+		<br>
+		<lable>checkbox</lable>
+		<input type="checkbox" name="html" checked value="HTML">
+		<br>
+
+		
+		<br>
+	</div>
+</fieldset><br><br>
+<input type="submit">
+	</form>
+
+</body>
+
+</html>
